@@ -1,24 +1,23 @@
 [general]
-name=plugin
+name=ConnManager
 qgisMinimumVersion=3.00
 email=jmillsapengineer@gmail.com
 author=John Millsap
-description=description
-about=long description
-version=0.1
-repository=repo
+description=Per-project connection management
+about=Manage connections to web services, GeoPackages, etc. on a per-project basis.
+version=1.0
+repository=https://github.com/millsapjohn/qgis_connmanager
 
-category=RasterVectorDatabaseMeshWeb
 changelog=changelog
-experimental=True
+experimental=False
 deprecated=False
-tags=tag,tag1
-homepage=homepage
-tracker=tracker
-qgisMaximumVersion=3.99
+tags=connections,browser
+homepage=https://github.com/millsapjohn/qgis_connmanager
+tracker=https://github.com/millsapjohn/qgis_connmanager/issues
+qgisMaximumVersion=4.99
 icon=icon
-plugin_dependencies=plugin1,plugin2
 server=False
 hasProcessingProvider=False
+supportsQt6=True
 
 
